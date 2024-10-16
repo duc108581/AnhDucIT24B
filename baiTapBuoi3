@@ -1,0 +1,26 @@
+public class Duc108581 {
+    
+}
+
+class Student {
+    // Thuộc tính của sinh viên
+    private String studentID;
+    private String fullName;
+    private String birthDate;
+    private int age;
+    private String gender;
+    private String studentClass;
+    private String department;
+    private String address;
+
+    // Constructor để khởi tạo đối tượng sinh viên
+    public Student(String studentID, String fullName, String birthDate, int age, String gender, String studentClass, String department, String address) {
+        this.studentID = studentID;
+        this.fullName = fullName;
+        this.birthDate = birthDate;
+        this.age = age;
+        this.gender = gender;
+        this.studentClass = studentClass;
+        this.department = department;
+        this.address = address;
+    }
